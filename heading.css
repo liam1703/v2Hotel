@@ -107,15 +107,17 @@ header{
 
   }
 .menu-click{
-  position: absolute;
+  position: fixed;
   z-index: 1;
   text-align: center;
   background-color: #252523;
   color:#dfd8c8;
-  height: 76vh;
+  height: 45vh;
   left: 50%;
   width: 50%;
   list-style: none;
+  padding-top: 3px;
+  z-index: 999999999;
   
   
   
@@ -124,6 +126,7 @@ header{
   text-decoration: none;
   margin-bottom: 23px;
   font-size: 1.4rem;
+  
   
 
 
