@@ -1,0 +1,49 @@
+.about{
+    
+    text-align: center;
+    background-color: #a39279;
+}
+
+.about h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.about p{
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.about img{
+    /* margin: 10px; */
+    width: 90%;
+}
+
+
+
+@media screen and (min-width:600px){
+    .about{
+        display: flex;
+        padding:20px;
+        justify-content: center;
+    
+    }
+
+    .about-para p {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .about-para{
+        width: 40%;
+        text-align: center;
+ 
+        
+        
+    }
+
+    .about-image{
+        width: 50%;
+    }
+}
