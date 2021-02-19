@@ -17,24 +17,26 @@
 }
 
 .room-card{
+    border-radius: 10%;
     margin: auto;
     margin-top: 60px;
     border: black 2px solid;
     width: 20rem;
     height: 60vh;
+    min-height: 450px;
     background-color: #252523;
     color:#dfd8c8;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12), 0 2px 10px rgba(0, 0, 0, 0.24);
 }
 
 .room-card img{
-    width: 100%;
+    width: 90%;
     height: 50%;
-
+    border-radius: 10%;
 }
 
 .room-card h6{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 1.5rem;
 }
 
