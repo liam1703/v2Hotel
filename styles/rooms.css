@@ -4,6 +4,7 @@
     /* border: black 5px solid; */
     text-align: center;
     align-items: center;
+    background-color:#dfd8c8;
 }
 
 .rooms-title{
@@ -11,7 +12,7 @@
 }
 
 .rooms h2{
-    margin-top: 20px;
+    padding-top: 20px;
     
     margin-bottom: 30px;
 }
@@ -42,16 +43,16 @@
     font-size: 1.5rem;
 }
 
-.room-hr{
+/* .room-hr{
     width: 76%;
     height: 3px;
     margin: auto;
     background-color: #a39279;
     color: #a39279;
-    margin-bottom: 40px;
-}
+    
+} */
 .card-row{
-    margin-bottom: 30px ;
+    padding-bottom: 30px ;
 }
 
 

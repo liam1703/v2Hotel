@@ -1,0 +1,27 @@
+.contact-us{
+    
+        /* border: solid 5px black; */
+        width: 100%;
+        height: fit-content;
+        background-color: #a39279;
+        text-align: center;
+        
+    
+    
+}
+.contact-us p{
+    padding-bottom: 50px ;
+}
+
+.contact-us .contact-title{
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.contact-us img{
+    width: 4rem;
+    height: 4rem;
+    filter: brightness(100%);
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
