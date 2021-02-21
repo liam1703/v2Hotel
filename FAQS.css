@@ -49,6 +49,13 @@
     
 }
 
+.arrow-container:hover{
+    background-color: #dfd8c8;
+}
+.arrow:hover{
+    border: #252523;
+}
+
 .arrow {
     border: solid white;
     border-width: 0 8px 8px 0;
@@ -68,7 +75,8 @@
         
       width: 70%;
       height: 30vh;
-      background-color: white;
+      background-color: #252523;
+      box-shadow: 5px 10px ;
       position: absolute;
       margin-top: 20vh;
     

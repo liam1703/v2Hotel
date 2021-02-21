@@ -1,6 +1,6 @@
 let menu = document.getElementById("small-hide");
 let navList = document.getElementById("navList");
-
+let navLinks = document.getElementsByClassName('hidden-listlink');
 
 
 menu.addEventListener("click", function(){
@@ -10,3 +10,14 @@ menu.addEventListener("click", function(){
     
     
 })
+
+
+
+
+
+
+for(let i = 0;i<navLinks.length;i++){
+    navLinks[i].addEventListener("click", function(){    
+        navList.classList.toggle("hide");
+    })
+}
