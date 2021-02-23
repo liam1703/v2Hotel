@@ -25,3 +25,10 @@
     margin-right: 30px;
     margin-bottom: 90px;
 }
+
+footer{
+    height: 25vh;
+    background-color: #252523;
+    
+    width: 100%;
+}
